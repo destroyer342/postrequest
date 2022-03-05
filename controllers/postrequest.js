@@ -1,6 +1,6 @@
 const companyKey = 'iUOgOX0UM232SvQjYD25jJrYz2oMBCVlh2152KHS';
 const apiKey = 'eHyJhyCuVpI7NZVciQYWRmznWJWZ49YLIvEf2INxvAET2DimdgQrbp2IvcY1pIwMNxGrMTXXSpR';
-const url = 'https://api.hrworkz.com/v3/api.php';
+const url = 'https://api.hrworkz.com/v3/messenger.php';
 const messenger_id = "4916919225875asd08"
 const axios = require('axios')
 const qs = require('qs');
