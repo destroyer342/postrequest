@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const router = require('./routes/routes.js')
-const apiURL = "https://api.hrworkz.com/v3/messenger/";
+
 
 
 PORT = 8666
