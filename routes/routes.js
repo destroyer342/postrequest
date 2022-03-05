@@ -15,11 +15,7 @@ router.get('/daddy',(req,res) => {
     
 })
 
-router.get('/api',(req,res) => {
 
-    res.render('api.php')
-    
-})
 
 router.get('/fromthis',fromthis.fromthis)
 
