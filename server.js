@@ -4,7 +4,7 @@ const router = require('./routes/routes.js')
 
 
 
-PORT = 8666
+
 
 app.set('view engine', 'ejs')
 app.get('/',(req,res) => {
@@ -14,6 +14,6 @@ app.get('/',(req,res) => {
 })
 
 app.use('/',router)
-app.listen(PORT)
+app.listen((process.env.PORT || 8080))
 
 
