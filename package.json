@@ -1,0 +1,35 @@
+{
+  "name": "herokuapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/destroyer342/herokuapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/destroyer342/herokuapp/issues"
+  },
+  "homepage": "https://github.com/destroyer342/herokuapp#readme",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "body-parser": "^1.19.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "postman-request": "^2.88.1-postman.31",
+    "qs": "^6.10.3",
+    "querystring": "^0.2.1",
+    "sphp": "^0.6.3",
+    "ws": "^8.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
